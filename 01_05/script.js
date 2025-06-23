@@ -2,6 +2,12 @@
  * Create a Backpack object, populate some HTML to display its properties.
  */
 
+/**
+ * function aaa updateBackpack()
+ * Outputs HTML to the main element
+ * @param {string} update - A message to log in the console
+ */
+
 // Single line comment
 
 /* Multi-line comment
