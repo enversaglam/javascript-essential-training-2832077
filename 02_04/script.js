@@ -2,6 +2,7 @@
  * Create a Backpack object, populate some HTML to display its properties.
  */
 import backpack from "./backpack.js";
+import calculator from "./math.js";
 
 const markup = (backpack) => {
   return `
@@ -19,6 +20,8 @@ const markup = (backpack) => {
   </div>
 `;
 };
+
+calculator(5, 3, "multiply");
 
 const main = document.createElement("main");
 main.innerHTML = markup(backpack);
